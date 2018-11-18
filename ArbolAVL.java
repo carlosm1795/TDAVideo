@@ -46,8 +46,8 @@ public class ArbolAVL {
     //Rotacion Doble a la Izquierda
     public NodoArbolAVL rotacionDobleDerecha(NodoArbolAVL nodo){
         NodoArbolAVL temporal;
-        nodo.hijoDerecho=rotacionDerecha(nodo.hijoDerecho);
-        temporal=rotacionIzquierda(nodo);
+        nodo.hijoDerecho=rotacionIzquierda(nodo.hijoDerecho);
+        temporal=rotacionDerecha(nodo);
         return temporal;
     }
     //Metodo para Insertar AVL
